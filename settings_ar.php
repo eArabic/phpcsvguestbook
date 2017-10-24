@@ -10,14 +10,14 @@
 $GBdata="gbdb.csv";
 $GBadmin="root";
 $GBpassword="password";
-$GBpagination=10; // pagination for entries, 0 - disabled
-$GBreadmore=255; // number of symbols for 'Read More' feature, 0 - shows full entries
-$GBsearch=true; // enable or disable search bar
-$GBcaptcha=false; // enable or disable captcha
-$GBupload=array(  // enable or disable upload feature
-    0=>"images",  // $GBupload=false; - disabled
-    1=>"pdf",     // $GBupload=true; - enabled for all files
-    2=>"odt",     // $GBupload=array(); - enabled for file types from this array
+$GBpagination=10; // عدد الإدخالات في الصفحة الواحدة, 0 - معطل
+$GBreadmore=255; // عدد الحروف التي تظهر في المزيد من القراءة, 0 - إظهار كامل النص
+$GBsearch=true; // تفعيل أو تعطيل شريط البحث
+$GBcaptcha=false; // تفعيل أو تعطيل التحقق كابتشا
+$GBupload=array(  // تفعيل أو تعطيل خيارات التحميل
+    0=>"images",  // $GBupload=false; - تعطيل
+    1=>"pdf",     // $GBupload=true; - تفعيل كل الملفات
+    2=>"odt",     // $GBupload=array(); - تفعيل أنواع محددة من الملفات
     3=>"odx",
     4=>"doc",
     5=>"docx",
@@ -26,27 +26,28 @@ $GBupload=array(  // enable or disable upload feature
     8=>"txt",
     9=>"zip",
     10=>"rar");
-$GBfilesize=1048576; // maximum file size
-$GBnotificationmailto=""; // leave empty if you don't want send notification
+$GBfilesize=1048576; // أقصى حجم ملف
+$GBnotificationmailto=""; // ترك فارغة إذا كنت لا تريد إرسال إشعار
 $GBnotificationmailfrom="";
-$GBtextlenght=7168; // maximum size of entry text
-$GBcityfield=true; // enable or disable 'City' field
-$GBlinkfield=true; // enable or disable 'Homepage' field
-$GBsubjectfield=true; // enable or disable 'Subject' field
+$GBtextlenght=7168; // أقصى حجم نص مدخل
+$GBcityfield=true; //  تفعيل أو تعطيل حقل المدينة 
+$GBlinkfield=true; // تفعيل أو تعطيل حقل الصفحة الرئيسية  
+$GBsubjectfield=true; // تفعيل أو تعطيل حقل الموضوع
 $GBcategoryfield=array(
-    0=>"Public",          // Array of categories, if you want to disable
+    0=>"Public",          // مجموعة الفئات إذا كنت ترغب بتعطليها
     1=>"Help",            // 'Category' field, just leave
     2=>"Special",         // '$GBcategoryfield=false' string
     3=>"Suppot",
     4=>"Order",
     5=>"Other");
-$GBstriptags=true; // enable or disable strip tags function during adding new entry
-$GBreplies=true; // enable or disable replies to mwssages
-$GBshownumbers=true; // show or not show number of entries (if replies enabled - numbers will not shown anyway)
-$GBstickylocked=true; // stick or lock entries in admin panel
-$GBfield1=true; // enable or disable special field 1
-$GBfield2=true; // enable or disable special field 2
-$GBfield3=true; // enable or disable special field 3
+$GBstriptags=true; // تمكين أو تعطيل وظيفة tags أثناء إضافة إدخال جديد   
+$GBreplies=true; // تمكين أو تعطيل الردود على الرسائل
+$GBshownumbers=true; // إظهار أو عدم إظهار عدد من الإدخالات: إذا تم تمكين الردود - لن تظهر الأرقام على أي حال 
+$GBstickylocked=true; // تثبيت أو قفل الإدخالات في لوحة الادارة
+$GBfield1=true; // تمكين أو تعطيل حقل خاص 1
+$GBfield2=true; // تمكين أو تعطيل حقل خاص 2
+$GBfield3=true; // تمكين أو تعطيل حقل خاص 3
+$GBemailfield=true; // تفعيل أو تعطيل حقل البريد الإلكتروني
 $Titles["HeadTitle"]="سجل الزوار";
 $Titles["Page"]="سجل الزوار";
 $Titles["Name"]="اسمك";
