@@ -47,6 +47,7 @@ $GBstickylocked=true; // تثبيت أو قفل الإدخالات في لوحة
 $GBfield1=true; // تمكين أو تعطيل حقل خاص 1
 $GBfield2=true; // تمكين أو تعطيل حقل خاص 2
 $GBfield3=true; // تمكين أو تعطيل حقل خاص 3
+$GBemailfield=true; // تفعيل أو تعطيل حقل البريد الإلكتروني
 $Titles["HeadTitle"]="سجل الزوار";
 $Titles["Page"]="سجل الزوار";
 $Titles["Name"]="اسمك";
